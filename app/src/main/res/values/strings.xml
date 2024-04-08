@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">RamadhanMubarak</string>
+    <string name="title_activity_layoutactivity">Layoutactivity</string>
+    <string name="title_activity_intenseactivity">Intenseactivity</string>
+    <string name="title_activity_form">formActivity</string>
+    <string name="title_activity_form2">FormActivity2</string>
+    <string name="title_activity_destinations">DestinationsActivity</string>
+    <string name="title_activity_explore">ExploreActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_sign_in">SignInActivity</string>
+    <string name="title_activity_woofpack">WoofpackActivity</string>
+    <string name="title_activity_lottie">LottieActivity</string>
+    <string name="title_activity_splashscreen">SplashscreenActivity</string>
+    <string name="title_activity_screen1">Screen1Activity</string>
+    <string name="title_activity_screen2">Screen2Activity</string>
+    <string name="title_activity_screen3">Screen3Activity</string>
+    <string name="title_activity_topsales">TopsalesActivity</string>
+</resources>

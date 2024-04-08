@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.RamadhanMubarak"
+        tools:targetApi="31">
+        <activity
+            android:name=".TopsalesActivity"
+            android:exported="false"
+            android:label="@string/title_activity_topsales"
+            android:theme="@style/Theme.RamadhanMubarak" />
+        <activity
+            android:name=".Screen3Activity"
+            android:exported="false"
+            android:label="@string/title_activity_screen3"
+            android:theme="@style/Theme.RamadhanMubarak" />
+        <activity
+            android:name=".Screen2Activity"
+            android:exported="false"
+            android:label="@string/title_activity_screen2"
+            android:theme="@style/Theme.RamadhanMubarak" />
+        <activity
+            android:name=".Screen1Activity"
+            android:exported="false"
+            android:label="@string/title_activity_screen1"
+            android:theme="@style/Theme.RamadhanMubarak" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:label="@string/title_activity_splashscreen"
+            android:theme="@style/Theme.RamadhanMubarak" />
+        <activity
+            android:name=".LottieActivity"
+            android:exported="false"
+            android:label="@string/title_activity_lottie"
+            android:theme="@style/Theme.RamadhanMubarak" />
+        <activity
+            android:name=".WoofpackActivity"
+            android:exported="false"
+            android:label="@string/title_activity_woofpack"
+            android:theme="@style/Theme.RamadhanMubarak" />
+        <activity
+            android:name=".SignInActivity"
+            android:exported="false"
+            android:label="@string/title_activity_sign_in"
+            android:theme="@style/Theme.RamadhanMubarak" />
+        <activity
+            android:name=".ExploreActivity"
+            android:exported="false"
+            android:label="@string/title_activity_explore"
+            android:theme="@style/Theme.RamadhanMubarak" />
+        <activity
+            android:name=".DestinationsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_destinations"
+            android:theme="@style/Theme.RamadhanMubarak" />
+        <activity
+            android:name=".formActivity"
+            android:exported="false"
+            android:label="@string/title_activity_form"
+            android:theme="@style/Theme.RamadhanMubarak" />
+        <activity
+            android:name=".IntentActivity"
+            android:exported="false"
+            android:label="@string/title_activity_intenseactivity"
+            android:theme="@style/Theme.RamadhanMubarak" />
+        <activity
+            android:name=".Layoutactivity"
+            android:exported="false"
+            android:label="@string/title_activity_layoutactivity"
+            android:theme="@style/Theme.RamadhanMubarak" />
+        <activity
+            android:name=".SplashscreenActivity"
+            android:exported="true"
+            android:label="RamadhanMubarak"
+            android:theme="@style/Theme.RamadhanMubarak">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
